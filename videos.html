@@ -48,7 +48,13 @@
         <nav
             class="relative max-w-[95rem] w-full flex flex-wrap lg:grid lg:grid-cols-12 basis-full items-center px-4 md:px-6 lg:px-8 mx-auto">
             <div class="lg:col-span-3 flex items-center">
-                <a rel="noopener noreferrer" href="index.html"
+                <!-- Logo -->
+                <!-- <a class="flex-none rounded-xl text-xl inline-block font-semibold focus:outline-hidden focus:opacity-80"
+                    href="index.html" aria-label="TBARC">
+                    <img src="assets/logo.png" width="116" height="32" alt="" srcset="">
+                    
+                </a> -->
+                <a rel="noopener noreferrer" href="#"
                     class="flex justify-center items-center align-middle space-x-3 lg:justify-start">
                     <div class="flex items-center justify-center w-24 h-24 rounded-full ">
                         <img src="assets/logo.png" alt="">
@@ -63,7 +69,6 @@
 
             <!-- Button Group -->
             <div class="flex items-center gap-x-1 lg:gap-x-2 ms-auto py-1 lg:ps-6 lg:order-3 lg:col-span-3">
-
                 <a href="https://forms.gle/EryS6W5ztxADpMg27" target="_blank"
                     class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium text-nowrap rounded-lg border border-transparent bg-green-800 text-white hover:bg-green-900 focus:outline-hidden focus:bg-green-500 transition disabled:opacity-50 disabled:pointer-events-none">
                     Get Involved!
@@ -100,7 +105,7 @@
                     class="flex flex-col gap-y-4 gap-x-0 mt-5 lg:flex-row lg:justify-center lg:items-center lg:gap-y-0 lg:gap-x-7 lg:mt-0">
                     <div>
                         <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600   "
-                            href="/" aria-current="page">Home</a>
+                            href="index.html" aria-current="page">Home</a>
                     </div>
                     <div>
                         <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600   "
@@ -111,7 +116,7 @@
                             href="gallery.html">Gallery</a>
                     </div>
                     <div>
-                        <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600   "
+                        <a class="relative inline-block text-black focus:outline-hidden before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-green-400 "
                             href="videos.html">Videos</a>
                     </div>
                     <div>
@@ -127,126 +132,18 @@
             <!-- End Collapse -->
         </nav>
     </header>
+
     <!-- ========== END HEADER ========== -->
 
     <!-- ========== MAIN CONTENT ========== -->
     <main id="content">
-
-
-        <section class="bg-white text-gray-800 mb-24">
-            <div
-                class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-12 lg:flex-row lg:justify-between">
-                <div class="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-                    <img src="assets/logo.png" alt="" class="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-                </div>
-                <div class="flex flex-col justify-center p-6  rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-
-                    <p class="mt-6 text-justify text-lg ">Tropical Biodiversity Action and Research Centre (TBARC) is
-                        dedicated to conserving biodiversity through research, education, and community action. We
-                        believe that ecological well-being and human prosperity are interconnected, and our mission is
-                        to safeguard this delicate balance by addressing pressing conservation challenges. From
-                        restoring degraded habitats and protecting endangered species to fostering environmental
-                        awareness and community participation, we aim to build a sustainable future for both people and
-                        nature. Our work is rooted in scientific research, innovative conservation tools, and inclusive
-                        community-driven approaches that encourage participation at every level.</p>
+        <section class="bg-gray-200 text-gray-800">
+            <div class="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
+                <div id="videosDiv" class="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
 
                 </div>
-            </div>
-            <div class="container mx-auto mb-8">
-                <p class="text-lg text-justify">We strive to bridge the gap between science and society by making
-                    conservation
-                    accessible, engaging, and impactful. By collaborating with government agencies, research
-                    institutions, NGOs, and local communities, we develop creative strategies to address biodiversity
-                    loss, human–wildlife conflict, and climate change impacts. Education is a central part of our
-                    work—we design school programs, organize workshops, and build nature interpretation centers that
-                    connect people to their environment. We also prioritize training and professional development,
-                    offering internships, research opportunities, and leadership programs to nurture the next generation
-                    of conservation professionals. Beyond education, TBARC emphasizes innovation, using technology like
-                    drones, GIS, and mobile applications for monitoring ecosystems and tracking wildlife. We believe
-                    that conservation must benefit both nature and communities, so we integrate sustainable livelihood
-                    opportunities, traditional ecological knowledge, and eco-friendly enterprises into our programs.
-                    Through citizen science initiatives, immersive field camps, and creative outreach such as wildlife
-                    film festivals, we aim to inspire individuals—especially youth—to become lifelong environmental
-                    stewards. Our vision is of resilient ecosystems, thriving species, empowered communities, and a
-                    planet where humans live in harmony with nature.
-                </p>
-            </div>
-            <div class="container mx-auto">
-                <h2 class="font-semibold text-2xl mb-6">Objectives</h2>
-                <ul>
-                    <li class="flex items-center space-x-2 mb-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
-                            class="w-5 h-5 fill-current text-green-600">
-                            <path
-                                d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z">
-                            </path>
-                            <polygon
-                                points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808">
-                            </polygon>
-                        </svg>
-                        <span>Conservation Action – Restore habitats, establish wildlife corridors, and protect
-                            threatened species.</span>
-                    </li>
-                    <li class="flex items-center space-x-2 mb-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
-                            class="w-5 h-5 fill-current text-green-600">
-                            <path
-                                d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z">
-                            </path>
-                            <polygon
-                                points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808">
-                            </polygon>
-                        </svg>
-                        <span>Research & Innovation – Monitor biodiversity using modern tools and publish
-                            findings.</span>
-                    </li>
-                    <li class="flex items-center space-x-2 mb-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
-                            class="w-5 h-5 fill-current text-green-600">
-                            <path
-                                d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z">
-                            </path>
-                            <polygon
-                                points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808">
-                            </polygon>
-                        </svg>
-                        <span>Education & Awareness – Promote conservation through schools, workshops, and
-                            campaigns.</span>
-                    </li>
-                    <li class="flex items-center space-x-2 mb-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
-                            class="w-5 h-5 fill-current text-green-600">
-                            <path
-                                d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z">
-                            </path>
-                            <polygon
-                                points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808">
-                            </polygon>
-                        </svg>
-                        <span>Community Engagement – Empower people with citizen science, youth clubs, and green
-                            livelihoods.
-                        </span>
-                    </li>
-                    <li class="flex items-center space-x-2 mb-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
-                            class="w-5 h-5 fill-current text-green-600">
-                            <path
-                                d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z">
-                            </path>
-                            <polygon
-                                points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808">
-                            </polygon>
-                        </svg>
-                        <span>Capacity Building – Provide training, internships, and leadership programs in
-                            conservation.
-                        </span>
-                    </li>
-
-                </ul>
             </div>
         </section>
-
-
 
 
 
@@ -261,7 +158,7 @@
     <footer class="px-4 divide-y bg-gray-100 text-gray-800">
         <div class="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
             <div class="lg:w-1/3">
-                <a rel="noopener noreferrer" href="index.html"
+                <a rel="noopener noreferrer" href="#"
                     class="flex justify-center items-center align-middle space-x-3 lg:justify-start">
                     <div class="flex items-center justify-center w-24 h-24 rounded-full ">
                         <img src="assets/logo.png" alt="">
@@ -311,7 +208,7 @@
                                 </path>
                                 <path d="m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10"></path>
                             </svg>
-                            <a rel="noopener noreferrer" class="ms-2" href="mailto:tbarcindia@gmail.com">tbarcindia@gmail.com</a>
+                            <a rel="noopener noreferrer" class="ms-2" href="#">tbarcindia@gmail.com</a>
                         </li>
                         <li class="flex">
                             <svg class="shrink-0 size-5 text-gray-500 " xmlns="http://www.w3.org/2000/svg" width="24"
@@ -387,7 +284,46 @@
 
     <!-- JS PLUGINS -->
     <!-- Required plugins -->
-    <script src="https://cdn.jsdelivr.net/npm/preline/dist/index.js"></script>
+    <script>
+        const items = [
+            {
+                heading: "A Journey From Coal to Stars",
+                video_id: "FeI5YhD374o",
+            },
+            {
+                heading: "Buzz for the plant: Meet the pollinating heroes",
+                video_id: "ZVOKCBTo9ls",
+            },
+            {
+                heading: "The Un-noticed Commoner Part 2",
+                video_id: "feOfJEHEtFE",
+            },
+            {
+                heading: "The Un-noticed Commoner Part 1",
+                video_id: "yJWTtvyfuDE",
+            },
+            {
+                heading: "Know our Giants: ' Elephants '",
+                video_id: "52rx1SZUqfk",
+            },
+
+        ];
+
+        const videosDiv = document.getElementById("videosDiv");
+        items.forEach(item => {
+            videosDiv.innerHTML += `
+            <a rel="noopener noreferrer"
+                href="https://youtu.be/${item.video_id}"
+                class="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-50">
+                <img role="presentation" class="object-cover w-full rounded h-44 bg-gray-500"
+                    src="https://img.youtube.com/vi/${item.video_id}/sddefault.jpg">
+                <div class="p-6 space-y-2">
+                    <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">${item.heading}</h3>
+                </div>
+            </a>
+        `;
+        });
+    </script>
 
 
 </body>
