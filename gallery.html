@@ -297,13 +297,25 @@
                 img_link: "assets/gallery2.jpeg",
                 description: "City nature challenge in assocaition with iNat Kerala at chaliyar river"
             },
+            {
+                img_link: "assets/gallery3.jpeg",
+                description: "City nature challenge in assocaition with iNat Kerala at MSSRF-CAbC Kalpetta"
+            },
+            {
+                img_link: "assets/gallery4.jpeg",
+                description: "World Enviornemtal day special talk at Sir Syed College Thaliparamba"
+            },
+            {
+                img_link: "assets/gallery5.jpeg",
+                description: "World Enviornemtal day special talk at St. Mary's College Sulthan Bathery"
+            },
         ];
 
         const blogsDiv = document.getElementById("blogsDiv");
         items.forEach(item => {
             blogsDiv.innerHTML += `
             <div class="bg-white rounded-lg">
-                <img class="rounded-t-lg object-cover h-44 w-full" src="${item.img_link}" alt="">
+                <img class="rounded-t-lg object-cover h-52 w-full" src="${item.img_link}" alt="">
                 <p class="p-3">${item.description}</p>
             </div>
         `;
