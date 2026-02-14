@@ -111,9 +111,10 @@
                         <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600   "
                             href="blog.html">Blog</a>
                     </div>
-                    <div>
-                        <a class="relative inline-block text-black focus:outline-hidden before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-green-800 "
-                            href="gallery.html">Gallery</a>
+                    <div class="flex flex-col sm:justify-center sm:items-center">
+                        <a class="relative inline-block text-black focus:outline-hidden"
+                            href="gallery.html" aria-current="page">Gallery</a>
+                            <hr class="h-1 w-7 bg-green-700 mt-1">
                     </div>
                     <div>
                         <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600   "
@@ -123,10 +124,10 @@
                         <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600   "
                             href="downloads.html">Downloads</a>
                     </div>
-                    <div>
+                    <!-- <div>
                         <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600   "
                             href="bio-invasion.html">Bio-Invasion</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- End Collapse -->
@@ -140,7 +141,6 @@
         <section class="bg-gray-200 text-gray-800">
             <div class="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
                 <div id="blogsDiv" class="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-
                 </div>
             </div>
         </section>
@@ -191,9 +191,9 @@
                         <li>
                             <a rel="noopener noreferrer" href="downloads.html">Downloads</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a rel="noopener noreferrer" href="bio-invasion.html">Bio-Invasion</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <div class="space-y-3">
@@ -291,7 +291,7 @@
         const items = [
             {
                 img_link: "assets/bird.jpg",
-                description: "Bird watching program at MSSRF-CAbC Kalpatta, in association with KSCSTE and Recaputure Earth"
+                insta_link: "https://www.instagram.com/reel/DUlVefCknzv/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
             },
             {
                 img_link: "assets/gallery2.jpeg",
@@ -314,10 +314,9 @@
         const blogsDiv = document.getElementById("blogsDiv");
         items.forEach(item => {
             blogsDiv.innerHTML += `
-            <div class="bg-white rounded-lg">
+            <a href="${item.insta_link}" class="bg-white rounded-lg">
                 <img class="rounded-t-lg object-cover h-52 w-full" src="${item.img_link}" alt="">
-                <p class="p-3">${item.description}</p>
-            </div>
+            </a>
         `;
         });
     </script>

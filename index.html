@@ -43,10 +43,10 @@
 
 <body class="">
     <!-- Announcement Banner -->
-    <div class="py-2 bg-yellow-400 text-center ">
+    <div class="py-2 bg-yellow-400 text-center">
         <div class="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
             <p class="text-sm text-black ">
-                Development in progress. Stay tuned for updates! (v0.8.0)
+                Development in progress. Stay tuned for updates! (v0.9.0)
             </p>
         </div>
     </div>
@@ -124,9 +124,10 @@
                 aria-labelledby="hs-pro-hcail-collapse">
                 <div
                     class="flex flex-col gap-y-4 gap-x-0 mt-5 lg:flex-row lg:justify-center lg:items-center lg:gap-y-0 lg:gap-x-7 lg:mt-0">
-                    <div>
-                        <a class="relative inline-block text-black focus:outline-hidden before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-green-800 "
+                    <div class="flex flex-col sm:justify-center sm:items-center">
+                        <a class="relative inline-block text-black focus:outline-hidden"
                             href="index.html" aria-current="page">Home</a>
+                            <hr class="h-1 w-7 bg-green-700 mt-1">
                     </div>
                     <div>
                         <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600   "
@@ -144,10 +145,10 @@
                         <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600   "
                             href="downloads.html">Downloads</a>
                     </div>
-                    <div>
+                    <!-- <div>
                         <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600   "
                             href="bio-invasion.html">Bio-Invasion</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- End Collapse -->
@@ -160,7 +161,7 @@
         <!-- Hero -->
         <div class="px-4 sm:px-6 lg:px-8 ">
             <div
-                class="h-120 md:h-[80dvh] flex justify-center items-center align-middle bg-[url('assets/bird.jpg')] bg-cover bg-center bg-no-repeat rounded-2xl">
+                class="h-80 md:h-[80dvh] flex justify-center items-center align-middle bg-[url('assets/bird.jpg')] bg-cover bg-center bg-no-repeat rounded-2xl">
                 <div class=" w-full  ps-5 pb-5 text-white text-center">
                     <h1 class="text-5xl md:text-5xl lg:text-7xl  font-bold ">
                         TBARC India
@@ -176,10 +177,10 @@
                     class="flex flex-row items-center w-full p-6 space-y-8 rounded-md lg:h-full lg:p-8 bg-gray-50 text-gray-800">
                     <img src="assets/gandhi.jpg" alt="" class="w-20 h-20 rounded-full bg-gray-500">
                     <div>
-                        <blockquote class="max-w-lg text-lg italic font-medium text-center">"Earth provides enough to
+                        <blockquote class="max-w-lg sm:text-lg text-sm italic font-medium text-center">"Earth provides enough to
                             satisfy
                             every man's needs, but not every man's greed."</blockquote>
-                        <div class="text-center text-gray-600 mt-3">
+                        <div class="text-center text-gray-600 mt-3 sm:text-md text-sm">
                             <p>Mahathma Gandhi</p>
                         </div>
                     </div>
@@ -195,9 +196,9 @@
 
                     <!-- End Col -->
 
-                    <div class="pt-10 md:p-10">
+                    <div class="pt-10 md:p-10 order-2 sm:order-2">
                         <blockquote class="max-w-3xl mx-auto">
-                            <p class="mb-6 md:text-3xl text-left uppercase font-semibold">
+                            <p class="mb-6 md:text-3xl text-left uppercase font-bold">
                                 Tropical <span class="text-green-900">Biodiversity</span> Action And Research Center
                             </p>
 
@@ -210,7 +211,7 @@
                         </blockquote>
                         <div class="max-w-3xl mx-auto flex justify-evenly mt-6">
                             <div class="flex flex-col items-center">
-                                <svg class="w-20 h-20" viewBox="0 0 24 24" fill="none"
+                                <svg class="sm:w-20 sm:h-20 w-10 h-10" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -224,7 +225,7 @@
                             </div>
 
                             <div class="flex flex-col items-center">
-                                <svg class="w-20 h-20" viewBox="0 0 24 24" fill="none"
+                                <svg class="sm:w-20 sm:h-20 w-10 h-10" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -241,7 +242,7 @@
 
                             </div>
                             <div class="flex flex-col items-center">
-                                <svg class="w-20 h-20" viewBox="0 0 20 20" fill="none"
+                                <svg class="sm:w-20 sm:h-20 w-10 h-10" viewBox="0 0 20 20" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -283,15 +284,13 @@
                         </div>
                         <div class="max-w-3xl mx-auto flex mt-10 mb-4">
                             <a href="about.html"
-                                class="border p-4 flex items-center rounded hover:bg-green-700 hover:text-white hover:fill-white ">
-                                <span class="text-lg">More About Us</span>
-                                <svg class="w-5 h-5 ms-3 text-green-500 " viewBox="0 -6.5 38 38" version="1.1"
+                                class="border sm:p-4 p-2 flex items-center rounded bg-green-800 text-white fill-white hover:bg-white hover:text-green-800 ">
+                                <span class="sm:text-lg text-sm">More About Us</span>
+                                <svg class="w-5 h-5 ms-3 fill-current " viewBox="0 -6.5 38 38" version="1.1"
                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                                     <g id="SVGRepo_iconCarrier">
-                                        <title>right-arrow</title>
-                                        <desc>Created with Sketch.</desc>
                                         <g id="icons" stroke="none" stroke-width="1" fill-rule="evenodd">
                                             <g id="ui-gambling-website-lined-icnos-casinoshunter"
                                                 transform="translate(-1511.000000, -158.000000)" fill-rule="nonzero">
@@ -308,7 +307,7 @@
                         </div>
 
                     </div>
-                    <div class="relative h-80 md:h-150 bg-gray-100 rounded-2xl ">
+                    <div class="relative h-80 md:h-150 bg-gray-100 rounded-2xl order-1 sm:order-2">
                         <img class="absolute inset-0 size-full object-cover rounded-2xl" src="assets/banner4.jpg"
                             alt="Testimonials Image">
                     </div>
@@ -322,14 +321,14 @@
         <section class="py-6 sm:py-12 bg-gray-200 text-gray-800">
             <div class="container p-6 mx-auto space-y-8">
                 <div class="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 ">
-                    <article class="flex flex-col bg-white">
+                    <article class="flex flex-col bg-white rounded-lg border-green-800 border-s-4">
 
                         <div class="flex flex-col flex-1 p-6">
                             <a rel="noopener noreferrer" href="#"
                                 aria-label="Te nulla oportere reprimique his dolorum"></a>
                             <a rel="noopener noreferrer" href="#"
                                 class="text-lg tracki uppercase font-semibold hover:underline text-green-800">Vision</a>
-                            <h3 class="flex-1 py-2 text-lg leadi">To conserve biodiversity through innovative,
+                            <h3 class="flex-1 py-2 sm:text-lg text-md leadi">To conserve biodiversity through innovative,
                                 science-based and community-driven approaches, fostering harmony between humans and
                                 nature while ensuring ecological resilience, sustainable livelihoods, and
                                 intergenerational environmental stewardship.
@@ -809,14 +808,14 @@
                             </div>
                         </div>
                     </article>
-                    <article class="flex flex-col bg-white">
+                    <article class="flex flex-col bg-white rounded-lg border-green-800 border-s-4">
 
                         <div class="flex flex-col flex-1 p-6">
                             <a rel="noopener noreferrer" href="#"
                                 aria-label="Te nulla oportere reprimique his dolorum"></a>
                             <a rel="noopener noreferrer" href="#"
                                 class="text-lg tracki uppercase font-semibold hover:underline text-green-800">Mission</a>
-                            <h3 class="flex-1 py-2 text-lg leadi">To protect species and habitats through research,
+                            <h3 class="flex-1 py-2 sm:text-lg text-md leadi">To protect species and habitats through research,
                                 education, and collaboration, engage communities in conservation, build awareness,
                                 promote sustainable practices, and develop leadership, ensuring ecological balance and
                                 long-term benefits for people and the planet.
@@ -1069,9 +1068,9 @@
                         <li>
                             <a rel="noopener noreferrer" href="downloads.html">Downloads</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a rel="noopener noreferrer" href="bio-invasion.html">Bio-Invasion</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <div class="space-y-3">
